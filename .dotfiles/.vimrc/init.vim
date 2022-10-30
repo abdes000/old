@@ -1,0 +1,12 @@
+source /home/abdes000/.config/nvim/.vimrc
+source /home/abdes000/.config/nvim/.vimrc.before
+source /home/abdes000/.config/nvim/.vimrc.bundles
+source /home/abdes000/.config/nvim/.vimrc.bundles.default
+source /home/abdes000/.config/nvim/.vimrc.config
+source /home/abdes000/.config/nvim/.vimrc.default
+source /home/abdes000/.config/nvim/.vimrc.generate
+source /home/abdes000/.config/nvim/.vimrc.spf13
+source /home/abdes000/.config/nvim/.vimrc.ben
+source /home/abdes000/.config/nvim/.vimrc.ben.lua
+source /home/abdes000/.config/nvim/.vimrc.plugin
+source /home/abdes000/.config/nvim/.vimrc.neobundle
