@@ -1,0 +1,81 @@
+# Config for LazyGit
+
+gui:
+  keybinding:
+    universal:
+      quit: 'q'
+      scrollUpMain: 'k'
+      scrollDownMain: 'j'
+    main:
+      nextItem: 'j'
+      prevItem: 'k'
+      select: '<enter>'
+      createNewBranch: 'n'
+      push: 'p'
+      pull: 'P'
+      fetch: 'f'
+      checkoutBranch: 'c'
+      checkoutCommit: 'C'
+      commitChanges: 'c'
+      amendCommit: 'a'
+      rewordCommit: 'r'
+      squashDown: 'S'
+      rebaseBranch: 'R'
+      cherryPick: 'y'
+      merge: 'm'
+      tag: 't'
+      diff: 'd'
+      submodules: 'u'
+      openPatchExplorer: 'x'
+      toggleStagingPanel: 's'
+      openLogMenu: 'l'
+      undo: 'u'
+      redo: 'U'
+  colors:
+    primaryText: 'default'
+    secondaryText: 'green'
+    primaryHighlight: 'yellow'
+    secondaryHighlight: 'green'
+    selectedLine: 'magenta'
+    selectedRange: 'magenta'
+    diffBoundary: 'magenta'
+    item: 'white'
+    mergeConflict: 'red'
+    notification: 'yellow'
+
+git:
+  commit:
+    signOff: false
+  merging:
+    manualCommit: true
+  pull:
+    autoStash: false
+  rebase:
+    autoSquash: true
+
+customCommands:
+  - key: 'b'
+    context: 'branches'
+    command: 'git checkout -b my-new-branch'
+    subTitle: 'Create and checkout a new branch'
+  - key: 's'
+    context: 'global'
+    command: 'git status'
+    subTitle: 'Show git status'
+
+confirmations:
+  removeFile: true
+  deleteBranch: true
+  mergeConflict: true
+
+language:
+  language: 'en'
+
+reporting:
+  reporting: false
+
+updates:
+  checkForUpdates: true
+
+logging:
+  enabled: false
